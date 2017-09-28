@@ -1,0 +1,901 @@
+2017-09-27 15:05:14,773 INFO  org.apache.predictionio.tools.console.App$ [main] - The following app (including all channels) will be deleted. Are you sure?
+2017-09-27 15:05:14,776 INFO  org.apache.predictionio.tools.console.App$ [main] -     App Name: defectPrediction
+2017-09-27 15:05:14,776 INFO  org.apache.predictionio.tools.console.App$ [main] -       App ID: 99
+2017-09-27 15:05:14,778 INFO  org.apache.predictionio.tools.console.App$ [main] -  Description: 
+2017-09-27 15:05:16,335 INFO  org.apache.predictionio.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_99...
+2017-09-27 15:05:19,133 INFO  org.apache.predictionio.tools.console.App$ [main] - Removed Event Store for this app ID: 99
+2017-09-27 15:05:19,171 INFO  org.apache.predictionio.tools.console.App$ [main] - Removed access key 4QiZH+4ZtV1TWaP69XN+3ax5ocRVGQrhB28qk+mw+kM=
+2017-09-27 15:05:19,174 INFO  org.apache.predictionio.tools.console.App$ [main] - Deleted app defectPrediction.
+2017-09-27 15:05:19,175 INFO  org.apache.predictionio.tools.console.App$ [main] - Done.
+2017-09-27 15:05:27,980 INFO  org.apache.predictionio.data.storage.hbase.HBLEvents [main] - The table pio_event:events_100 doesn't exist yet. Creating now...
+2017-09-27 15:05:30,508 INFO  org.apache.predictionio.tools.console.App$ [main] - Initialized Event Store for this app ID: 100.
+2017-09-27 15:05:30,537 INFO  org.apache.predictionio.tools.console.App$ [main] - Created new app:
+2017-09-27 15:05:30,538 INFO  org.apache.predictionio.tools.console.App$ [main] -       Name: defectPrediction
+2017-09-27 15:05:30,539 INFO  org.apache.predictionio.tools.console.App$ [main] -         ID: 100
+2017-09-27 15:05:30,541 INFO  org.apache.predictionio.tools.console.App$ [main] - Access Key: sHOj4nMs0PlrITlKF306/DMfP5TvrEhokvxA0EE4fY0=
+2017-09-27 15:05:34,227 INFO  org.apache.predictionio.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2017-09-27 15:05:34,281 INFO  org.apache.predictionio.tools.console.App$ [main] -     defectPrediction |  100 |                     sHOj4nMs0PlrITlKF306/DMfP5TvrEhokvxA0EE4fY0= | (all)
+2017-09-27 15:05:34,288 INFO  org.apache.predictionio.tools.console.App$ [main] -             javadase |   31 |                     v9euLKRC01HyR8fOf+00kSMzRAuvR8SGhdlw5dbmbZM= | (all)
+2017-09-27 15:05:34,288 INFO  org.apache.predictionio.tools.console.App$ [main] - Finished listing 2 app(s).
+2017-09-27 15:05:49,268 INFO  org.apache.predictionio.tools.console.Console$ [main] - Using command '/PredictionIO/sbt/sbt' at the current working directory to build.
+2017-09-27 15:05:49,274 INFO  org.apache.predictionio.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2017-09-27 15:05:49,275 INFO  org.apache.predictionio.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.10.0-incubating.jar is absent.
+2017-09-27 15:05:49,276 INFO  org.apache.predictionio.tools.console.Console$ [main] - Going to run: /PredictionIO/sbt/sbt  package assemblyPackageDependency
+2017-09-27 15:05:57,238 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mLoading project definition from /quickstartapp/DefectPrediction/project[0m
+2017-09-27 15:05:57,487 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mUpdating {file:/quickstartapp/DefectPrediction/project/}defectprediction-build...[0m
+2017-09-27 15:05:57,696 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
+2017-09-27 15:05:57,812 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,812 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+2017-09-27 15:05:57,844 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,844 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.7 ...[0m
+2017-09-27 15:05:57,872 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,872 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.7 ...[0m
+2017-09-27 15:05:57,903 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,903 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.7 ...[0m
+2017-09-27 15:05:57,935 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,935 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.7 ...[0m
+2017-09-27 15:05:57,957 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,958 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+2017-09-27 15:05:57,983 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:57,983 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+2017-09-27 15:05:58,013 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.7 ...[0m
+2017-09-27 15:05:58,032 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,032 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.7 ...[0m
+2017-09-27 15:05:58,049 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,049 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.7 ...[0m
+2017-09-27 15:05:58,067 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,068 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.7 ...[0m
+2017-09-27 15:05:58,083 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,083 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.7 ...[0m
+2017-09-27 15:05:58,100 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,101 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.7 ...[0m
+2017-09-27 15:05:58,118 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,119 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+2017-09-27 15:05:58,136 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,136 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.7 ...[0m
+2017-09-27 15:05:58,151 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,151 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.7 ...[0m
+2017-09-27 15:05:58,167 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,167 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.7 ...[0m
+2017-09-27 15:05:58,187 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,188 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.7 ...[0m
+2017-09-27 15:05:58,204 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,204 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.7 ...[0m
+2017-09-27 15:05:58,221 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,221 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.7 ...[0m
+2017-09-27 15:05:58,236 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,236 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.7 ...[0m
+2017-09-27 15:05:58,255 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,255 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.7 ...[0m
+2017-09-27 15:05:58,272 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,272 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+2017-09-27 15:05:58,286 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,286 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.7 ...[0m
+2017-09-27 15:05:58,299 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,300 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.7 ...[0m
+2017-09-27 15:05:58,312 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,312 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.7 ...[0m
+2017-09-27 15:05:58,327 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,327 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.7 ...[0m
+2017-09-27 15:05:58,341 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,341 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...[0m
+2017-09-27 15:05:58,352 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,353 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.46 ...[0m
+2017-09-27 15:05:58,364 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,364 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.10 ...[0m
+2017-09-27 15:05:58,377 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,377 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+2017-09-27 15:05:58,391 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,392 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+2017-09-27 15:05:58,405 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,405 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+2017-09-27 15:05:58,419 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,419 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+2017-09-27 15:05:58,437 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,437 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+2017-09-27 15:05:58,449 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,449 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+2017-09-27 15:05:58,462 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,462 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.7 ...[0m
+2017-09-27 15:05:58,473 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,473 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.7 ...[0m
+2017-09-27 15:05:58,484 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,485 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.7 ...[0m
+2017-09-27 15:05:58,496 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,497 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.7 ...[0m
+2017-09-27 15:05:58,505 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,505 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.7 ...[0m
+2017-09-27 15:05:58,516 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,516 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.7 ...[0m
+2017-09-27 15:05:58,527 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,527 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.7 ...[0m
+2017-09-27 15:05:58,535 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,535 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+2017-09-27 15:05:58,543 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,544 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.7 ...[0m
+2017-09-27 15:05:58,553 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,553 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.7 ...[0m
+2017-09-27 15:05:58,566 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,567 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.7 ...[0m
+2017-09-27 15:05:58,582 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,583 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.7 ...[0m
+2017-09-27 15:05:58,594 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,594 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.7 ...[0m
+2017-09-27 15:05:58,603 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,603 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_8_2;0.13.7 ...[0m
+2017-09-27 15:05:58,612 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,612 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_2;0.13.7 ...[0m
+2017-09-27 15:05:58,619 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,619 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_3;0.13.7 ...[0m
+2017-09-27 15:05:58,965 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,965 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+2017-09-27 15:05:58,973 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:05:58,973 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+2017-09-27 15:05:59,157 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mDone updating.[0m
+2017-09-27 15:06:01,550 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mSet current project to defect-prediction (in build file:/quickstartapp/DefectPrediction/)[0m
+2017-09-27 15:06:01,786 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mUpdating {file:/quickstartapp/DefectPrediction/}defectprediction...[0m
+2017-09-27 15:06:01,797 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+2017-09-27 15:06:01,809 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,809 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+2017-09-27 15:06:01,817 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,817 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.10 ...[0m
+2017-09-27 15:06:01,826 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,827 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+2017-09-27 15:06:01,834 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,834 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+2017-09-27 15:06:01,841 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,841 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+2017-09-27 15:06:01,848 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,848 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+2017-09-27 15:06:01,854 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,854 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
+2017-09-27 15:06:01,861 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,862 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+2017-09-27 15:06:01,895 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,896 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.predictionio#apache-predictionio-core_2.10;0.11.0-incubating ...[0m
+2017-09-27 15:06:01,906 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,906 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
+2017-09-27 15:06:01,912 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,912 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.predictionio#apache-predictionio-data_2.10;0.11.0-incubating ...[0m
+2017-09-27 15:06:01,921 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,921 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.predictionio#apache-predictionio-common_2.10;0.11.0-incubating ...[0m
+2017-09-27 15:06:01,929 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,929 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-can_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,937 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,937 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-io_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,945 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,945 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-util_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,953 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,953 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-http_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,963 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,963 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-scala_2.10;1.1.7 ...[0m
+2017-09-27 15:06:01,972 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,972 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.7 ...[0m
+2017-09-27 15:06:01,979 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,979 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-routing_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,989 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,989 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-httpx_2.10;1.3.3 ...[0m
+2017-09-27 15:06:01,999 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:01,999 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.jvnet.mimepull#mimepull;1.9.5 ...[0m
+2017-09-27 15:06:02,006 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,007 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10;1.2.4 ...[0m
+2017-09-27 15:06:02,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.15 ...[0m
+2017-09-27 15:06:02,022 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,022 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+2017-09-27 15:06:02,028 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,029 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.3.15 ...[0m
+2017-09-27 15:06:02,036 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,036 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+2017-09-27 15:06:02,043 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,043 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.10;2.6.0 ...[0m
+2017-09-27 15:06:02,051 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,051 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.9.1 ...[0m
+2017-09-27 15:06:02,058 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,058 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+2017-09-27 15:06:02,065 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,065 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.clapper#grizzled-slf4j_2.10;1.0.2 ...[0m
+2017-09-27 15:06:02,072 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,072 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+2017-09-27 15:06:02,107 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,107 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.1.1 ...[0m
+2017-09-27 15:06:02,116 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,116 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+2017-09-27 15:06:02,125 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,125 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.github.scopt#scopt_2.10;3.5.0 ...[0m
+2017-09-27 15:06:02,132 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,132 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.5 ...[0m
+2017-09-27 15:06:02,138 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,138 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-bijection_2.10;0.7.2 ...[0m
+2017-09-27 15:06:02,145 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,145 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill_2.10;0.7.2 ...[0m
+2017-09-27 15:06:02,152 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,152 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-java;0.7.2 ...[0m
+2017-09-27 15:06:02,158 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,159 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.kryo#kryo;2.21 ...[0m
+2017-09-27 15:06:02,166 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,168 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...[0m
+2017-09-27 15:06:02,173 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,173 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.0 ...[0m
+2017-09-27 15:06:02,180 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,180 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.minlog#minlog;1.2 ...[0m
+2017-09-27 15:06:02,187 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,187 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.2 ...[0m
+2017-09-27 15:06:02,193 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,194 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#bijection-core_2.10;0.8.0 ...[0m
+2017-09-27 15:06:02,203 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,203 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving de.javakaffee#kryo-serializers;0.37 ...[0m
+2017-09-27 15:06:02,211 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,211 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#kryo;3.0.3 ...[0m
+2017-09-27 15:06:02,218 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,218 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#reflectasm;1.10.1 ...[0m
+2017-09-27 15:06:02,224 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,224 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;5.0.3 ...[0m
+2017-09-27 15:06:02,231 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,231 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#minlog;1.3.0 ...[0m
+2017-09-27 15:06:02,237 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,237 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;2.1 ...[0m
+2017-09-27 15:06:02,243 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,243 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.6.1 ...[0m
+2017-09-27 15:06:02,250 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,250 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.jodah#typetools;0.3.1 ...[0m
+2017-09-27 15:06:02,256 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,256 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ext_2.10;3.2.10 ...[0m
+2017-09-27 15:06:02,263 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,263 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.6 ...[0m
+2017-09-27 15:06:02,270 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,270 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;1.1.6 ...[0m
+2017-09-27 15:06:02,277 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,277 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.18 ...[0m
+2017-09-27 15:06:02,283 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,283 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.18 ...[0m
+2017-09-27 15:06:02,289 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,289 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
+2017-09-27 15:06:02,297 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,297 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;2.2.0 ...[0m
+2017-09-27 15:06:02,310 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:06:02,310 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;2.2.0 ...[0m
+2017-09-27 15:07:02,173 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:02,175 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:07:02,201 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:02,202 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:07:04,133 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,134 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
+2017-09-27 15:07:04,545 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,545 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro;1.7.7 ...[0m
+2017-09-27 15:07:04,571 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,572 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...[0m
+2017-09-27 15:07:04,592 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,592 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...[0m
+2017-09-27 15:07:04,630 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,630 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+2017-09-27 15:07:04,649 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,649 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+2017-09-27 15:07:04,675 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,677 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro-mapred;1.7.7 ...[0m
+2017-09-27 15:07:04,697 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,698 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro-ipc;1.7.7 ...[0m
+2017-09-27 15:07:04,731 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,733 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill_2.10;0.8.0 ...[0m
+2017-09-27 15:07:04,756 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,756 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-java;0.8.0 ...[0m
+2017-09-27 15:07:04,775 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,776 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#kryo-shaded;3.0.3 ...[0m
+2017-09-27 15:07:04,811 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,812 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean-asm5-shaded;4.4 ...[0m
+2017-09-27 15:07:04,835 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,836 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-client;2.6.5 ...[0m
+2017-09-27 15:07:04,866 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,866 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-common;2.6.5 ...[0m
+2017-09-27 15:07:04,901 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,902 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-annotations;2.6.5 ...[0m
+2017-09-27 15:07:04,924 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,925 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;11.0.2 ...[0m
+2017-09-27 15:07:04,941 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,941 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;1.3.9 ...[0m
+2017-09-27 15:07:04,955 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,956 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-cli#commons-cli;1.2 ...[0m
+2017-09-27 15:07:04,977 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,977 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving xmlenc#xmlenc;0.52 ...[0m
+2017-09-27 15:07:04,991 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:04,992 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-httpclient#commons-httpclient;3.1 ...[0m
+2017-09-27 15:07:05,006 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,007 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.4 ...[0m
+2017-09-27 15:07:05,036 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,037 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.2 ...[0m
+2017-09-27 15:07:05,060 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,060 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-lang#commons-lang;2.6 ...[0m
+2017-09-27 15:07:05,076 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,076 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-configuration#commons-configuration;1.6 ...[0m
+2017-09-27 15:07:05,096 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,097 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-digester#commons-digester;1.8 ...[0m
+2017-09-27 15:07:05,113 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,114 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils;1.7.0 ...[0m
+2017-09-27 15:07:05,129 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,130 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils-core;1.8.0 ...[0m
+2017-09-27 15:07:05,165 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,165 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-auth;2.6.5 ...[0m
+2017-09-27 15:07:05,191 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,193 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.2.5 ...[0m
+2017-09-27 15:07:05,213 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,214 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.2.4 ...[0m
+2017-09-27 15:07:05,231 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,231 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
+2017-09-27 15:07:05,244 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,244 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 ...[0m
+2017-09-27 15:07:05,272 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,273 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-i18n;2.0.0-M15 ...[0m
+2017-09-27 15:07:05,302 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,303 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-asn1-api;1.0.0-M20 ...[0m
+2017-09-27 15:07:05,329 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,330 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-util;1.0.0-M20 ...[0m
+2017-09-27 15:07:05,347 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,347 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-framework;2.6.0 ...[0m
+2017-09-27 15:07:05,367 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,367 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-client;2.6.0 ...[0m
+2017-09-27 15:07:05,388 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,388 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.zookeeper#zookeeper;3.4.6 ...[0m
+2017-09-27 15:07:05,413 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,413 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving jline#jline;0.9.94 ...[0m
+2017-09-27 15:07:05,438 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,439 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;16.0.1 ...[0m
+2017-09-27 15:07:05,451 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,452 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-recipes;2.6.0 ...[0m
+2017-09-27 15:07:05,472 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,472 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.htrace#htrace-core;3.0.4 ...[0m
+2017-09-27 15:07:05,486 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,486 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-hdfs;2.6.5 ...[0m
+2017-09-27 15:07:05,504 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,505 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty-util;6.1.26 ...[0m
+2017-09-27 15:07:05,528 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,528 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.9.1 ...[0m
+2017-09-27 15:07:05,540 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,541 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.3.04 ...[0m
+2017-09-27 15:07:05,549 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,549 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-app;2.6.5 ...[0m
+2017-09-27 15:07:05,565 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,565 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 ...[0m
+2017-09-27 15:07:05,583 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,583 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-common;2.6.5 ...[0m
+2017-09-27 15:07:05,604 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,604 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-api;2.6.5 ...[0m
+2017-09-27 15:07:05,631 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,631 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.xml.bind#jaxb-api;2.2.2 ...[0m
+2017-09-27 15:07:05,644 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,644 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.xml.stream#stax-api;1.0-2 ...[0m
+2017-09-27 15:07:05,653 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,653 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1 ...[0m
+2017-09-27 15:07:05,672 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,672 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-jaxrs;1.9.13 ...[0m
+2017-09-27 15:07:05,684 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,685 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-xc;1.9.13 ...[0m
+2017-09-27 15:07:05,702 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,702 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.google.inject#guice;3.0 ...[0m
+2017-09-27 15:07:05,715 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,716 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+2017-09-27 15:07:05,725 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,726 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+2017-09-27 15:07:05,734 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,734 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...[0m
+2017-09-27 15:07:05,745 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,745 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-client;2.6.5 ...[0m
+2017-09-27 15:07:05,761 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,761 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-core;2.6.5 ...[0m
+2017-09-27 15:07:05,782 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,782 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-common;2.6.5 ...[0m
+2017-09-27 15:07:05,799 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,799 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...[0m
+2017-09-27 15:07:05,810 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,810 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.6.5 ...[0m
+2017-09-27 15:07:05,829 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,829 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.6.5 ...[0m
+2017-09-27 15:07:05,881 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,881 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.6.5 ...[0m
+2017-09-27 15:07:05,907 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,908 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jettison#jettison;1.1 ...[0m
+2017-09-27 15:07:05,945 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,945 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;2.2.0 ...[0m
+2017-09-27 15:07:05,953 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:05,955 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;2.2.0 ...[0m
+2017-09-27 15:07:07,383 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:07,385 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:07:07,420 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:07,421 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-tags_2.10;2.2.0 ...[0m
+2017-09-27 15:07:07,434 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:07,435 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-tags_2.10;2.2.0 ...[0m
+2017-09-27 15:07:08,878 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:08,883 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:07:08,917 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:08,918 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.spark#unused;1.0.0 ...[0m
+2017-09-27 15:07:08,933 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:08,934 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;2.2.0 ...[0m
+2017-09-27 15:07:08,943 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:07:08,943 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;2.2.0 ...[0m
+2017-09-27 15:08:06,428 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,429 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:06,453 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,453 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.43.Final ...[0m
+2017-09-27 15:08:06,470 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,471 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.5 ...[0m
+2017-09-27 15:08:06,484 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,484 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.6.5 ...[0m
+2017-09-27 15:08:06,502 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,502 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.6.5 ...[0m
+2017-09-27 15:08:06,511 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,512 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.6.5 ...[0m
+2017-09-27 15:08:06,524 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,524 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-crypto;1.0.0 ...[0m
+2017-09-27 15:08:06,542 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,542 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;2.2.0 ...[0m
+2017-09-27 15:08:06,552 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:06,552 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;2.2.0 ...[0m
+2017-09-27 15:08:07,985 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:07,987 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:08,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:08,015 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-core;3.1.2 ...[0m
+2017-09-27 15:08:08,035 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:08,035 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;2.2.0 ...[0m
+2017-09-27 15:08:08,046 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:08,046 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;2.2.0 ...[0m
+2017-09-27 15:08:09,482 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,485 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:09,507 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,507 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.java.dev.jets3t#jets3t;0.9.3 ...[0m
+2017-09-27 15:08:09,520 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,520 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.3.3 ...[0m
+2017-09-27 15:08:09,530 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,530 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.3.6 ...[0m
+2017-09-27 15:08:09,543 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,543 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.8 ...[0m
+2017-09-27 15:08:09,555 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,556 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1.1 ...[0m
+2017-09-27 15:08:09,566 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,566 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving mx4j#mx4j;3.0.2 ...[0m
+2017-09-27 15:08:09,584 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,585 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.mail#mail;1.4.7 ...[0m
+2017-09-27 15:08:09,588 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,588 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+2017-09-27 15:08:09,598 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,598 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.jamesmurty.utils#java-xmlbuilder;1.0 ...[0m
+2017-09-27 15:08:09,610 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,611 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.iharder#base64;2.3.8 ...[0m
+2017-09-27 15:08:09,635 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,636 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.servlet#javax.servlet-api;3.1.0 ...[0m
+2017-09-27 15:08:09,652 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,653 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.4.1 ...[0m
+2017-09-27 15:08:09,663 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,664 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.16 ...[0m
+2017-09-27 15:08:09,673 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,674 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.16 ...[0m
+2017-09-27 15:08:09,685 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,685 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.ning#compress-lzf;1.0.3 ...[0m
+2017-09-27 15:08:09,692 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,693 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.1.2.6 ...[0m
+2017-09-27 15:08:09,704 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,705 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.jpountz.lz4#lz4;1.3.0 ...[0m
+2017-09-27 15:08:09,713 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,714 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.roaringbitmap#RoaringBitmap;0.5.11 ...[0m
+2017-09-27 15:08:09,721 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,721 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-net#commons-net;2.2 ...[0m
+2017-09-27 15:08:09,731 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,731 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-jackson_2.10;3.2.11 ...[0m
+2017-09-27 15:08:09,742 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,742 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.11 ...[0m
+2017-09-27 15:08:09,753 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,753 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.11 ...[0m
+2017-09-27 15:08:09,768 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,769 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-client;2.22.2 ...[0m
+2017-09-27 15:08:09,782 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,782 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.ws.rs#javax.ws.rs-api;2.0.1 ...[0m
+2017-09-27 15:08:09,790 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,790 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-common;2.22.2 ...[0m
+2017-09-27 15:08:09,804 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,804 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.annotation#javax.annotation-api;1.2 ...[0m
+2017-09-27 15:08:09,812 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,812 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 ...[0m
+2017-09-27 15:08:09,823 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,824 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-api;2.4.0-b34 ...[0m
+2017-09-27 15:08:09,836 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,836 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-utils;2.4.0-b34 ...[0m
+2017-09-27 15:08:09,847 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,847 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 ...[0m
+2017-09-27 15:08:09,857 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,858 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2.external#javax.inject;2.4.0-b34 ...[0m
+2017-09-27 15:08:09,868 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,868 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-locator;2.4.0-b34 ...[0m
+2017-09-27 15:08:09,881 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,881 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.1-GA ...[0m
+2017-09-27 15:08:09,889 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,890 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#osgi-resource-locator;1.0.1 ...[0m
+2017-09-27 15:08:09,905 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,905 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-server;2.22.2 ...[0m
+2017-09-27 15:08:09,920 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,920 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 ...[0m
+2017-09-27 15:08:09,937 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,937 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving javax.validation#validation-api;1.1.0.Final ...[0m
+2017-09-27 15:08:09,948 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,949 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.containers#jersey-container-servlet;2.22.2 ...[0m
+2017-09-27 15:08:09,963 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,964 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.containers#jersey-container-servlet-core;2.22.2 ...[0m
+2017-09-27 15:08:09,979 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,979 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.9.9.Final ...[0m
+2017-09-27 15:08:09,989 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:09,989 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.clearspring.analytics#stream;2.7.0 ...[0m
+2017-09-27 15:08:10,001 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,002 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-jvm;3.1.2 ...[0m
+2017-09-27 15:08:10,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,014 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-json;3.1.2 ...[0m
+2017-09-27 15:08:10,026 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,027 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-graphite;3.1.2 ...[0m
+2017-09-27 15:08:10,039 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,040 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-scala_2.10;2.6.5 ...[0m
+2017-09-27 15:08:10,050 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,051 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
+2017-09-27 15:08:10,062 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,062 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5 ...[0m
+2017-09-27 15:08:10,072 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,072 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.ivy#ivy;2.4.0 ...[0m
+2017-09-27 15:08:10,080 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,080 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving oro#oro;2.0.8 ...[0m
+2017-09-27 15:08:10,087 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,088 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.razorvine#pyrolite;4.13 ...[0m
+2017-09-27 15:08:10,095 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,095 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.sf.py4j#py4j;0.10.4 ...[0m
+2017-09-27 15:08:10,110 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,110 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;2.2.0 ...[0m
+2017-09-27 15:08:10,116 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:10,116 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;2.2.0 ...[0m
+2017-09-27 15:08:11,539 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:11,541 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:11,565 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:11,565 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;2.2.0 ...[0m
+2017-09-27 15:08:11,574 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:11,574 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;2.2.0 ...[0m
+2017-09-27 15:08:13,028 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:13,029 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:13,070 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:13,070 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;2.2.0 ...[0m
+2017-09-27 15:08:13,081 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:13,081 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;2.2.0 ...[0m
+2017-09-27 15:08:14,573 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:14,575 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:08:14,595 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:14,596 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.univocity#univocity-parsers;2.2.1 ...[0m
+2017-09-27 15:08:14,608 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:14,608 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sketch_2.10;2.2.0 ...[0m
+2017-09-27 15:08:14,617 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:08:14,617 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sketch_2.10;2.2.0 ...[0m
+2017-09-27 15:09:12,080 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:12,081 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:09:12,114 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:12,114 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;2.2.0 ...[0m
+2017-09-27 15:09:12,122 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:12,122 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;2.2.0 ...[0m
+2017-09-27 15:09:13,554 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,555 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:09:13,603 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,603 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino;3.0.0 ...[0m
+2017-09-27 15:09:13,612 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,613 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.janino#commons-compiler;3.0.0 ...[0m
+2017-09-27 15:09:13,629 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,629 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-runtime;4.5.3 ...[0m
+2017-09-27 15:09:13,643 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,643 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
+2017-09-27 15:09:13,654 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,654 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-column;1.8.2 ...[0m
+2017-09-27 15:09:13,664 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,664 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-common;1.8.2 ...[0m
+2017-09-27 15:09:13,674 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,674 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-encoding;1.8.2 ...[0m
+2017-09-27 15:09:13,683 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,684 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-hadoop;1.8.2 ...[0m
+2017-09-27 15:09:13,692 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,693 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-format;2.3.1 ...[0m
+2017-09-27 15:09:13,699 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,699 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-jackson;1.8.2 ...[0m
+2017-09-27 15:09:13,720 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,720 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;2.2.0 ...[0m
+2017-09-27 15:09:13,725 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:13,725 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;2.2.0 ...[0m
+2017-09-27 15:09:15,136 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:15,139 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:09:15,172 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:15,174 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib-local_2.10;2.2.0 ...[0m
+2017-09-27 15:09:15,183 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:15,184 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib-local_2.10;2.2.0 ...[0m
+2017-09-27 15:09:16,595 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,597 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.2.0 ...[0m
+2017-09-27 15:09:16,622 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,623 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.10;0.13.1 ...[0m
+2017-09-27 15:09:16,635 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,636 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.10;0.13.1 ...[0m
+2017-09-27 15:09:16,645 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,645 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.1.0 ...[0m
+2017-09-27 15:09:16,657 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,657 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#core;1.1.2 ...[0m
+2017-09-27 15:09:16,665 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,666 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.f2j#arpack_combined_all;0.1 ...[0m
+2017-09-27 15:09:16,674 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,674 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving net.sf.opencsv#opencsv;2.3 ...[0m
+2017-09-27 15:09:16,683 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,683 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.github.rwl#jtransforms;2.4.0 ...[0m
+2017-09-27 15:09:16,691 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,692 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire_2.10;0.13.0 ...[0m
+2017-09-27 15:09:16,701 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,702 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire-macros_2.10;0.13.0 ...[0m
+2017-09-27 15:09:16,710 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,711 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.typelevel#machinist_2.10;0.6.1 ...[0m
+2017-09-27 15:09:16,721 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,721 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10;2.3.2 ...[0m
+2017-09-27 15:09:16,730 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,730 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.typelevel#macro-compat_2.10;1.1.1 ...[0m
+2017-09-27 15:09:16,756 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,757 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.jpmml#pmml-model;1.2.15 ...[0m
+2017-09-27 15:09:16,764 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:16,764 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.jpmml#pmml-schema;1.2.15 ...[0m
+2017-09-27 15:09:18,836 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:18,837 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+2017-09-27 15:09:18,847 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:18,847 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+2017-09-27 15:09:18,860 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:18,861 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+2017-09-27 15:09:18,867 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - 
+2017-09-27 15:09:18,869 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+2017-09-27 15:09:19,348 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mDone updating.[0m
+2017-09-27 15:09:19,811 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mCompiling 14 Java sources to /quickstartapp/DefectPrediction/target/scala-2.10/classes...[0m
+2017-09-27 15:09:22,141 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNote: /quickstartapp/DefectPrediction/src/main/java/com/niit/defectprediction/DataSource.java uses unchecked or unsafe operations.[0m
+2017-09-27 15:09:22,142 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNote: Recompile with -Xlint:unchecked for details.[0m
+2017-09-27 15:09:23,216 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2017-09-27 15:09:23,261 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mPackaging /quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction_2.10-0.1-SNAPSHOT.jar ...[0m
+2017-09-27 15:09:23,760 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mDone packaging.[0m
+2017-09-27 15:09:23,778 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[32msuccess[0m] [0mTotal time: 202 s, completed Sep 27, 2017 3:09:23 PM[0m
+2017-09-27 15:09:24,151 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2017-09-27 15:09:24,303 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: json4s-ast_2.10-3.2.10.jar[0m
+2017-09-27 15:09:24,326 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: scalap-2.10.0.jar[0m
+2017-09-27 15:09:24,373 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: paranamer-2.6.jar[0m
+2017-09-27 15:09:24,420 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: scala-library.jar[0m
+2017-09-27 15:09:24,558 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: scala-compiler-2.10.0.jar[0m
+2017-09-27 15:09:24,688 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: scala-reflect-2.10.0.jar[0m
+2017-09-27 15:09:25,687 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: commons-io-2.4.jar[0m
+2017-09-27 15:09:25,713 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: json4s-native_2.10-3.2.10.jar[0m
+2017-09-27 15:09:25,729 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mIncluding: json4s-core_2.10-3.2.10.jar[0m
+2017-09-27 15:09:26,738 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+2017-09-27 15:09:26,884 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mMerging files...[0m
+2017-09-27 15:09:27,056 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE.txt' with strategy 'rename'[0m
+2017-09-27 15:09:27,171 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE.txt' with strategy 'rename'[0m
+2017-09-27 15:09:29,076 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+2017-09-27 15:09:29,099 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mMerging 'rootdoc.txt' with strategy 'concat'[0m
+2017-09-27 15:09:29,380 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mStrategy 'concat' was applied to a file[0m
+2017-09-27 15:09:29,381 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
+2017-09-27 15:09:29,382 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[33mwarn[0m] [0mStrategy 'rename' was applied to 2 files[0m
+2017-09-27 15:09:29,685 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mSHA-1: 57aca4c830515f8057d69d780ae49afba1cf5808[0m
+2017-09-27 15:09:29,688 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mPackaging /quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction-assembly-0.1-SNAPSHOT-deps.jar ...[0m
+2017-09-27 15:09:37,212 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[0minfo[0m] [0mDone packaging.[0m
+2017-09-27 15:09:37,236 INFO  org.apache.predictionio.tools.console.Console$ [Thread-1] - [0m[[32msuccess[0m] [0mTotal time: 13 s, completed Sep 27, 2017 3:09:37 PM[0m
+2017-09-27 15:09:37,291 INFO  org.apache.predictionio.tools.console.Console$ [main] - Build finished successfully.
+2017-09-27 15:09:37,293 INFO  org.apache.predictionio.tools.console.Console$ [main] - Looking for an engine...
+2017-09-27 15:09:37,315 INFO  org.apache.predictionio.tools.console.Console$ [main] - Found defect-prediction_2.10-0.1-SNAPSHOT.jar
+2017-09-27 15:09:37,315 INFO  org.apache.predictionio.tools.console.Console$ [main] - Found defect-prediction-assembly-0.1-SNAPSHOT-deps.jar
+2017-09-27 15:09:38,786 INFO  org.elasticsearch.plugins [main] - [Carnivore] loaded [], sites []
+2017-09-27 15:09:40,097 INFO  org.apache.predictionio.tools.RegisterEngine$ [main] - Registering engine tCrkM3x2PK0R424iubdQ4WPsDhD2BHvn d2834f4fc7a461cf7d3666c50abd54a3eb9601a9
+2017-09-27 15:09:40,117 INFO  org.apache.predictionio.tools.console.Console$ [main] - Your engine is ready for training.
+2017-09-27 15:09:41,922 INFO  org.apache.predictionio.tools.console.Console$ [main] - Using existing engine manifest JSON at /quickstartapp/DefectPrediction/manifest.json
+2017-09-27 15:09:44,251 INFO  org.apache.predictionio.tools.Runner$ [main] - Submission command: /spark/bin/spark-submit --driver-memory 4G --class org.apache.predictionio.workflow.CreateWorkflow --jars file:/quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction_2.10-0.1-SNAPSHOT.jar,file:/quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction-assembly-0.1-SNAPSHOT-deps.jar --files file:/PredictionIO/conf/log4j.properties,file:/hbase/conf/hbase-site.xml --driver-class-path /PredictionIO/conf:/PredictionIO/lib/postgresql-9.4-1204.jdbc41.jar:/PredictionIO/lib/mysql-connector-java-5.1.37.jar:/hbase/conf file:/PredictionIO/lib/pio-assembly-0.10.0-incubating.jar --engine-id tCrkM3x2PK0R424iubdQ4WPsDhD2BHvn --engine-version d2834f4fc7a461cf7d3666c50abd54a3eb9601a9 --engine-variant file:/quickstartapp/DefectPrediction/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/root/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/hbase,PIO_HOME=/PredictionIO,PIO_FS_ENGINESDIR=/root/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/root/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/elasticsearch,PIO_FS_TMPDIR=/root/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2017-09-27 15:09:47,030 INFO  org.apache.predictionio.controller.Engine [main] - Extracting datasource params...
+2017-09-27 15:09:47,155 INFO  org.apache.predictionio.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2017-09-27 15:09:47,239 INFO  org.apache.predictionio.controller.Engine [main] - Datasource params: (,com.niit.defectprediction.DataSourceParams@7876d598)
+2017-09-27 15:09:47,240 INFO  org.apache.predictionio.controller.Engine [main] - Extracting preparator params...
+2017-09-27 15:09:47,244 INFO  org.apache.predictionio.controller.Engine [main] - Preparator params: (,Empty)
+2017-09-27 15:09:47,255 INFO  org.apache.predictionio.controller.Engine [main] - Extracting serving params...
+2017-09-27 15:09:47,257 INFO  org.apache.predictionio.controller.Engine [main] - Serving params: (,Empty)
+2017-09-27 15:09:49,401 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-6] - Starting remoting
+2017-09-27 15:09:49,590 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-6] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.1:40906]
+2017-09-27 15:10:18,067 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [main] - FAILED SelectChannelConnector@0.0.0.0:4040: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:236)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1913)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1904)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:246)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:136)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:474)
+	at org.apache.predictionio.workflow.WorkflowContext$.apply(WorkflowContext.scala:45)
+	at org.apache.predictionio.workflow.CoreWorkflow$.runTrain(CoreWorkflow.scala:59)
+	at org.apache.predictionio.workflow.CreateWorkflow$.main(CreateWorkflow.scala:250)
+	at org.apache.predictionio.workflow.CreateWorkflow.main(CreateWorkflow.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:672)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:180)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:205)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:120)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+2017-09-27 15:10:18,075 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [main] - FAILED org.spark-project.jetty.server.Server@3ab35b9c: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:236)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1913)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1904)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:246)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:136)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:474)
+	at org.apache.predictionio.workflow.WorkflowContext$.apply(WorkflowContext.scala:45)
+	at org.apache.predictionio.workflow.CoreWorkflow$.runTrain(CoreWorkflow.scala:59)
+	at org.apache.predictionio.workflow.CreateWorkflow$.main(CreateWorkflow.scala:250)
+	at org.apache.predictionio.workflow.CreateWorkflow.main(CreateWorkflow.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:672)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:180)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:205)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:120)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+2017-09-27 15:10:18,139 WARN  org.apache.spark.util.Utils [main] - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2017-09-27 15:10:46,883 WARN  org.apache.spark.metrics.MetricsSystem [main] - Using default name DAGScheduler for source because spark.app.id is not set.
+2017-09-27 15:10:47,493 INFO  org.apache.predictionio.controller.Engine$ [main] - EngineWorkflow.train
+2017-09-27 15:10:47,497 INFO  org.apache.predictionio.controller.Engine$ [main] - DataSource: com.niit.defectprediction.DataSource@1e40fbb3
+2017-09-27 15:10:47,500 INFO  org.apache.predictionio.controller.Engine$ [main] - Preparator: com.niit.defectprediction.Preparator@1e6060f1
+2017-09-27 15:10:47,501 INFO  org.apache.predictionio.controller.Engine$ [main] - AlgorithmList: List(com.niit.defectprediction.RandomForestAlgorithm@2478b629)
+2017-09-27 15:10:47,503 INFO  org.apache.predictionio.controller.Engine$ [main] - Data sanity check is on.
+2017-09-27 15:10:47,503 INFO  com.niit.defectprediction.DataSource [main] - **********************readTraining************************/quickstartapp/trainResult.txt
+2017-09-27 15:10:50,715 INFO  org.apache.predictionio.controller.Engine$ [main] - com.niit.defectprediction.TrainingData supports data sanity check. Performing check.
+2017-09-27 15:10:50,717 INFO  org.apache.predictionio.controller.Engine$ [main] - com.niit.defectprediction.PreparedData does not support data sanity check. Skipping check.
+2017-09-27 15:10:50,718 INFO  com.niit.defectprediction.RandomForestAlgorithm [main] - **********************Train the model************************
+2017-09-27 15:10:50,799 INFO  com.niit.defectprediction.RandomForestAlgorithm [main] - **********************Train the model*****Counts :::1789
+2017-09-27 15:10:50,799 INFO  com.niit.defectprediction.RandomForestAlgorithm [main] - Parmeter Values::2,1000,4
+2017-09-27 15:10:54,488 INFO  org.apache.predictionio.controller.Engine$ [main] - org.apache.spark.mllib.tree.model.RandomForestModel does not support data sanity check. Skipping check.
+2017-09-27 15:10:54,489 INFO  org.apache.predictionio.controller.Engine$ [main] - EngineWorkflow.train completed
+2017-09-27 15:10:54,491 INFO  org.apache.predictionio.controller.Engine [main] - engineInstanceId=AV7D4wQBadG41NPuy71o
+2017-09-27 15:10:54,530 INFO  org.apache.predictionio.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2017-09-27 15:10:54,795 INFO  org.apache.predictionio.workflow.CoreWorkflow$ [main] - Updating engine instance
+2017-09-27 15:10:54,817 INFO  org.apache.predictionio.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2017-09-27 15:11:16,711 INFO  org.apache.predictionio.tools.Runner$ [main] - Submission command: /spark/bin/spark-submit --class org.apache.predictionio.workflow.CreateServer --jars file:/quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction_2.10-0.1-SNAPSHOT.jar,file:/quickstartapp/DefectPrediction/target/scala-2.10/defect-prediction-assembly-0.1-SNAPSHOT-deps.jar --files file:/PredictionIO/conf/log4j.properties,file:/hbase/conf/hbase-site.xml --driver-class-path /PredictionIO/conf:/PredictionIO/lib/postgresql-9.4-1204.jdbc41.jar:/PredictionIO/lib/mysql-connector-java-5.1.37.jar:/hbase/conf file:/PredictionIO/lib/pio-assembly-0.10.0-incubating.jar --engineInstanceId AV7D4wQBadG41NPuy71o --engine-variant file:/quickstartapp/DefectPrediction/engine.json --ip 0.0.0.0 --port 8000 --event-server-ip 0.0.0.0 --event-server-port 7070 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/root/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/hbase,PIO_HOME=/PredictionIO,PIO_FS_ENGINESDIR=/root/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/root/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/elasticsearch,PIO_FS_TMPDIR=/root/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2017-09-27 15:11:21,741 WARN  org.apache.predictionio.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-3] - Non-empty parameters supplied to com.niit.defectprediction.Preparator, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2017-09-27 15:11:21,755 WARN  org.apache.predictionio.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-3] - Non-empty parameters supplied to com.niit.defectprediction.Serving, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2017-09-27 15:11:23,729 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-6] - Starting remoting
+2017-09-27 15:11:24,031 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-6] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.1:56122]
+2017-09-27 15:11:52,549 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [pio-server-akka.actor.default-dispatcher-3] - FAILED SelectChannelConnector@0.0.0.0:4040: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:236)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1913)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1904)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:246)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:136)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:474)
+	at org.apache.predictionio.workflow.WorkflowContext$.apply(WorkflowContext.scala:45)
+	at org.apache.predictionio.workflow.CreateServer$.createServerActorWithEngine(CreateServer.scala:228)
+	at org.apache.predictionio.workflow.MasterActor.createServerActor(CreateServer.scala:400)
+	at org.apache.predictionio.workflow.MasterActor$$anonfun$receive$1.applyOrElse(CreateServer.scala:312)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:467)
+	at org.apache.predictionio.workflow.MasterActor.aroundReceive(CreateServer.scala:269)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2017-09-27 15:11:52,558 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [pio-server-akka.actor.default-dispatcher-3] - FAILED org.spark-project.jetty.server.Server@7e63694c: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:236)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.ui.JettyUtils$$anonfun$3.apply(JettyUtils.scala:246)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1913)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1904)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:246)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:136)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:474)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:474)
+	at org.apache.predictionio.workflow.WorkflowContext$.apply(WorkflowContext.scala:45)
+	at org.apache.predictionio.workflow.CreateServer$.createServerActorWithEngine(CreateServer.scala:228)
+	at org.apache.predictionio.workflow.MasterActor.createServerActor(CreateServer.scala:400)
+	at org.apache.predictionio.workflow.MasterActor$$anonfun$receive$1.applyOrElse(CreateServer.scala:312)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:467)
+	at org.apache.predictionio.workflow.MasterActor.aroundReceive(CreateServer.scala:269)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2017-09-27 15:11:52,621 WARN  org.apache.spark.util.Utils [pio-server-akka.actor.default-dispatcher-3] - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2017-09-27 15:12:21,567 WARN  org.apache.spark.metrics.MetricsSystem [pio-server-akka.actor.default-dispatcher-3] - Using default name DAGScheduler for source because spark.app.id is not set.
+2017-09-27 15:12:22,169 INFO  org.apache.predictionio.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Using persisted model
+2017-09-27 15:12:22,173 INFO  org.apache.predictionio.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Loaded model org.apache.spark.mllib.tree.model.RandomForestModel for algorithm com.niit.defectprediction.RandomForestAlgorithm
+2017-09-27 15:12:22,453 INFO  org.apache.predictionio.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-4] - Undeploying any existing engine instance at http://0.0.0.0:8000
+2017-09-27 15:12:24,103 INFO  spray.can.server.HttpListener [pio-server-akka.actor.default-dispatcher-3] - Bound to /0.0.0.0:8000
+2017-09-27 15:12:24,105 INFO  org.apache.predictionio.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-3] - Engine is deployed and running. Engine API is live at http://0.0.0.0:8000.
+2017-09-27 15:13:40,369 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - **********************Prediction on the model:predict************************
+2017-09-27 15:13:40,370 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - Test Data Path:
+/quickstartapp/trainResult.txt
+2017-09-27 15:13:40,424 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-5] - Starting remoting
+2017-09-27 15:13:40,451 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@localhost:58372]
+2017-09-27 15:13:45,157 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - **********************Prediction on the model:predict************************
+2017-09-27 15:13:45,162 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - Test Data Path:
+/quickstartapp/trainResult.txt
+2017-09-27 15:14:09,070 WARN  org.apache.spark.metrics.MetricsSystem [ForkJoinPool-4-worker-7] - Using default name DAGScheduler for source because spark.app.id is not set.
+2017-09-27 15:14:12,586 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - *************Test Data Path Loaded**********1789
+2017-09-27 15:14:12,606 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - *************Test Data Path Loaded**********1789
+2017-09-27 15:14:12,820 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - *************Test Data Path Loaded:size**********1789
+2017-09-27 15:14:12,842 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - *************Test Data Path Loaded:size**********1789
+2017-09-27 15:14:14,789 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - *************Prediction Done**********1789
+2017-09-27 15:14:14,789 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - TestData File:
+/quickstartapp/testDataResult.csv
+2017-09-27 15:14:14,791 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - *************Prediction Done**********1789
+2017-09-27 15:14:14,791 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - TestData File:
+/quickstartapp/testDataResult.csv
+2017-09-27 15:14:14,878 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-3] - *************Output Saved**********
+2017-09-27 15:14:14,889 INFO  com.niit.defectprediction.RandomForestAlgorithm [ForkJoinPool-4-worker-7] - *************Output Saved**********
