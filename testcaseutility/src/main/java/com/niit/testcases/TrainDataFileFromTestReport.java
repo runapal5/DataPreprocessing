@@ -47,8 +47,11 @@ public class TrainDataFileFromTestReport {
 		try {
 
 			//input = new FileInputStream("config.properties");
-			input = TrainDataFileFromTestReport.class.getClassLoader().getResourceAsStream(propertiesFileName);
+			//input = TrainDataFileFromTestReport.class.getClassLoader().getResourceAsStream(propertiesFileName);
 
+			String externalFileName = System.getProperty("app.properties");
+			input = new FileInputStream(new File(externalFileName));
+			
 			// load a properties file
 			prop.load(input);
 
